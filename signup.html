@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lifestyle Store</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="assign2.css" type="text/css">
+    </head>
+    <body>
+       <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header ">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand " href="index.html"><span class="glyphicon glyphicon-home"></span> Lifestyle Store</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="signup.html"><span class="glyphicon glyphicon-user"></span> SIGN UP</a></li>
+                        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> LOGIN</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>  
+        <br><br><br><br>
+        <div class="container">
+            <div class="col-xs-6 col-xs-offset-3">
+                <center> 
+                    <h1>SIGN UP</h1>
+                    <form>
+                        <div class="form-group">
+                            <input type="text"  class="form-control" placeholder="First Name" name="firstname">
+                        </div>
+                        <div class="form-group">
+                            <input type="text"  class="form-control" placeholder="Last Name" name="lastname">
+                        </div>
+                        <div class="form-group">
+                        <div class="radio">
+                            <label class="col-xs-2">
+                                <input type="radio" name="gender" value="male">       Male
+                            </label>
+                            <label class="col-xs-3 col-xs-offset-2">
+                                <input type="radio" name="gender" value="female">       Female
+                            </label>
+                            <label>
+                                <input type="radio" name="gender" value="other"> Other
+                            </label>
+                        </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control"  placeholder="Email"  name="e-mail" >
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Password" name="password">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control"  placeholder="Contact" name="contact" >
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control"  placeholder="City" name="city" >
+                        </div>
+                        <div class="form-group">
+                           <input class="form-control"  placeholder="Address" name="address" >
+                        </div>
+                        <div class="container">
+                            <div class="jumbotron col-xs-6">
+                            <div class="checkbox">
+                            <label>
+                                <input type="checkbox" name="food" value="Coffee">By clicking Create Account, you agree to our Terms and confirm that you have read 
+                                our Data Policy, including our Cookie Use Policy. You may receive SMS message
+                                notifications from Facebook and can opt out at any time.
+                            </label>
+                            </div>
+                            </div>
+                        </div>
+                            <button type="submit" name="submit" class="btn btn-success btn-block">Submit</button>
+                    </form> 
+                </center>
+            </div>
+        </div>
+        <br>
+        <br>
+        
+        <footer class="footer">
+            <div class="container">
+                <center>
+                    <p>Copyright @ Lifestyle Store. All Rights Reserved | Contact Us: +91 90000 00000
+                    </p>
+                </center>
+            </div>
+        </footer>
+    </body>
+</html>
